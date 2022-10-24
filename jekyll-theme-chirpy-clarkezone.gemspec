@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Cotes Chung, James Clarke"]
   spec.email         = ["cotes.chung@gmail.com"]
 
-  spec.summary       = "Chirpy is a minimal, sidebar, responsive web design Jekyll theme that focuses on text presentation."
-  spec.homepage      = "https://github.com/clarkezone/jekyll-theme-chirpy"
+  spec.summary       = "Chirpy is a minimal, sidebar, responsive web design Jekyll theme that focuses on text presentation.  This fork adds URL redirection for Giscuss commenting system"
+  spec.homepage      = "https://github.com/clarkezone/jekyll-theme-chirpy-clarkezone"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f|
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
     "bug_tracker_uri"   => "https://github.com/cotes2020/jekyll-theme-chirpy/issues",
     "documentation_uri" => "https://github.com/cotes2020/jekyll-theme-chirpy/#readme",
     "homepage_uri"      => "https://cotes2020.github.io/chirpy-demo",
-    "source_code_uri"   => "https://github.com/clarkezone/jekyll-theme-chirpy",
+    "source_code_uri"   => "https://github.com/clarkezone/jekyll-theme-chirpy-clarkezone",
     "wiki_uri"          => "https://github.com/clarkezone/jekyll-theme-chirpy/wiki",
     "plugin_type"       => "theme"
   }

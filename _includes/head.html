@@ -6,8 +6,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  {% if page.layout == 'post' %}
-  <meta name="commentshortlink" content="page.title">
+  {% if page.layout == 'post' and page.commentshortlink.length != 0 %}
+  <meta name="giscus:backlink" content="{{ page.commentshortlink }}">
   {% endif %}
 
   {% if page.layout == 'home' or page.layout == 'post' %}

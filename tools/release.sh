@@ -27,7 +27,7 @@ GEM_SPEC="jekyll-theme-chirpy.gemspec"
 NODE_CONFIG="package.json"
 
 FILES=(
-  "_sass/jekyll-theme-chirpy.scss"
+  "_sass/jekyll-theme-chirpy-clarkezone.scss"
   "_javascript/copyright"
   "$GEM_SPEC"
   "$NODE_CONFIG"
@@ -44,7 +44,7 @@ help() {
   echo "A tool to release new version Chirpy gem"
   echo
   echo "Usage:"
-  echo
+  echo-clarkezone
   echo "   bash ./tools/release.sh [options]"
   echo
   echo "Options:"
@@ -114,7 +114,7 @@ _bump_gemspec() {
 
 # 1. Bump latest version number to the following files:
 #
-#   - _sass/jekyll-theme-chirpy.scss
+#   - _sass/jekyll-theme-chirpy-clarkezone.scss
 #   - _javascript/copyright
 #   - assets/js/dist/*.js (will be built by gulp later)
 #   - jekyll-theme-chirpy.gemspec
