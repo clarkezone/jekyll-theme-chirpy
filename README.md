@@ -1,5 +1,9 @@
 <div align="center">
 
+  # Clarkezone adendum
+
+  This fork of chirpy was created with the intent to experiment with [backlinks in giscus](https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#giscusbacklink) with the goal of contributing official support for above to mainline.
+
   # Chirpy Jekyll Theme
 
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
